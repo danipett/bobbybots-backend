@@ -1,3 +1,31 @@
+# Update 2019-06-28
+*Daniel Pettersson*
+
+### Resultat och hur långt jag hunnit
+#### Följande delar är gjorda och fungerande:
+* Databasen skapas om det behövs och seedas med värden från JSON-filen.
+* Följande Mutations finns:
+ * Skapa robot
+ * Ta bort en namngiven robot
+ * Det går att "uppdatera" en namngiven robot så att den får favoritflagg.
+* Följande Queries finns:
+ * Fråga efter en namngiven robot
+ * Fråga efter alla robotar
+* Alla fall där "namngiven" används är oberoende av stora/små bokstäver
+#### Följande delar kvarstår:
+* Sortera Queries på namn eller poäng
+* Se till att favoriter alltid hamnar högst upp i söklistan
+* Filtrera efter kategorier
+* Skapa en Mutation som gör att det går att uppdatera alla egenskaper en robot har och inte bara markera den som favorit.
+* Skapa en Dockerfile
+#### Det största problemet just nu:
+* Uppdateringsfunktionaliteten är där jag sitter fast för tillfället och blir inte så mycket klokare av felmeddelandet som GraphiQL-skickar när jag testar och det blir fel.
+* Tänkte släppa det och eventuellt göra klart alla Queries imorgon (2019-06-29) om det inte är så att det jag blivit klar med hittills ändå säger allt ni vill veta. :) I annat fall kommer jag nog att göra klart dem under helgen oavsett för jag vill veta hur det blir när det är klart!
+
+*Vänliga hälsningar*
+
+*Daniel*
+
 
 # Bobbybots
 *by Bobby Digital Studios*
