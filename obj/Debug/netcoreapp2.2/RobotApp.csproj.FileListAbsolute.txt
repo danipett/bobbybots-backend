@@ -1,0 +1,14 @@
+C:\Users\Media\Desktop\Arbetsprov\RobotApp\bin\Debug\netcoreapp2.2\RobotApp.deps.json
+C:\Users\Media\Desktop\Arbetsprov\RobotApp\bin\Debug\netcoreapp2.2\RobotApp.runtimeconfig.json
+C:\Users\Media\Desktop\Arbetsprov\RobotApp\bin\Debug\netcoreapp2.2\RobotApp.runtimeconfig.dev.json
+C:\Users\Media\Desktop\Arbetsprov\RobotApp\bin\Debug\netcoreapp2.2\RobotApp.dll
+C:\Users\Media\Desktop\Arbetsprov\RobotApp\bin\Debug\netcoreapp2.2\RobotApp.pdb
+C:\Users\Media\Desktop\Arbetsprov\RobotApp\obj\Debug\netcoreapp2.2\RobotApp.csprojAssemblyReference.cache
+C:\Users\Media\Desktop\Arbetsprov\RobotApp\obj\Debug\netcoreapp2.2\RobotApp.csproj.CoreCompileInputs.cache
+C:\Users\Media\Desktop\Arbetsprov\RobotApp\obj\Debug\netcoreapp2.2\RobotApp.RazorAssemblyInfo.cache
+C:\Users\Media\Desktop\Arbetsprov\RobotApp\obj\Debug\netcoreapp2.2\RobotApp.RazorAssemblyInfo.cs
+C:\Users\Media\Desktop\Arbetsprov\RobotApp\obj\Debug\netcoreapp2.2\RobotApp.AssemblyInfoInputs.cache
+C:\Users\Media\Desktop\Arbetsprov\RobotApp\obj\Debug\netcoreapp2.2\RobotApp.AssemblyInfo.cs
+C:\Users\Media\Desktop\Arbetsprov\RobotApp\obj\Debug\netcoreapp2.2\RobotApp.RazorTargetAssemblyInfo.cache
+C:\Users\Media\Desktop\Arbetsprov\RobotApp\obj\Debug\netcoreapp2.2\RobotApp.dll
+C:\Users\Media\Desktop\Arbetsprov\RobotApp\obj\Debug\netcoreapp2.2\RobotApp.pdb
