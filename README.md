@@ -9,8 +9,8 @@
  * Ta bort en namngiven robot
  * Det går att "uppdatera" en namngiven robot så att den får favoritflagg.
 * Följande Queries finns:
- * Fråga efter en namngiven robot
- * Fråga efter alla robotar
+  * Fråga efter en namngiven robot
+  * Fråga efter alla robotar
 * Alla fall där "namngiven" används är oberoende av stora/små bokstäver
 #### Följande delar kvarstår:
 * Sortera Queries på namn eller poäng
