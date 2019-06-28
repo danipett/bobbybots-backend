@@ -5,9 +5,9 @@
 #### Följande delar är gjorda och fungerande:
 * Databasen skapas om det behövs och seedas med värden från JSON-filen.
 * Följande Mutations finns:
- * Skapa robot
- * Ta bort en namngiven robot
- * Det går att "uppdatera" en namngiven robot så att den får favoritflagg.
+  * Skapa robot
+  * Ta bort en namngiven robot
+  * Det går att "uppdatera" en namngiven robot så att den får favoritflagg.
 * Följande Queries finns:
   * Fråga efter en namngiven robot
   * Fråga efter alla robotar
