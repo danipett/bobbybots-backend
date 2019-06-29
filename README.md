@@ -1,3 +1,19 @@
+# Update 2019-06-29
+*Daniel Pettersson*
+
+### Resultatuppdatering
+#### Följande delar är gjorda och fungerande (förutom de nedan redan nämnda):
+* Det går att sortera robots-queryn på namn eller poäng. Den accepterar bara "score" eller "name" som värde på name_or_score annars blir det inget sorterat.
+   * Denna query kräver också att alla kategorier som är intressanta specificeras då den exkluderar alla icke-angivna kategorier
+* Favoriter hamnar alltid högst upp i sorteringen
+* updateRobot-mutationen tar nu ett boolean-argument för vad Favourite skall sättas till.
+
+#### Följande delar kvarstår:
+* Ingen kontroll av vettiga värden för argumentinmatning överhuvudtaget eller existens av efterfrågade Robot-namn
+* Koden är extremt dåligt kommenterad
+* Det går i nuläget bara att uppdatera egenskapen Favourite och då jag inte fått till uppdatering av alla/vissa egenskaper för en Robot i en och samma mutation så hade lösningen just nu blivit att göra en mutation för varje egenskap och skriva dem analogt med den befintliga.
+* Inte gjort någon Dockerfile
+
 # Update 2019-06-28
 *Daniel Pettersson*
 
