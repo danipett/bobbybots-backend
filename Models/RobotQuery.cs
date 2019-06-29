@@ -11,13 +11,16 @@ namespace RobotApp.Models
         {
             Field<RobotType>(
                 "robot",
-                arguments: new QueryArguments(new QueryArgument<StringGraphType> { Name = "name" }),
+                arguments: new QueryArguments(new QueryArgument<NonNullGraphType<StringGraphType>> { Name = "name" }),
                 resolve: context => contextServiceLocator.RobotRepository.Get(context.GetArgument<string>("name")));
 
 
             Field<ListGraphType<RobotType>>(
                 "robots",
-                resolve: context => contextServiceLocator.RobotRepository.All());
+                arguments: new QueryArguments(new QueryArgument<NonNullGraphType<StringGraphType>> { Name = "order" },
+                new QueryArgument<NonNullGraphType<StringGraphType>> { Name = "includedCategories" }),
+                resolve: context => contextServiceLocator.RobotRepository.All(context.GetArgument<string>("order"),
+                context.GetArgument<string>("includedCategories")));
         }
     }
 }

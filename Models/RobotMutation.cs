@@ -25,16 +25,17 @@ namespace RobotApp.Models
             Field<StringGraphType>(
                 "updateRobot",
                 arguments: new QueryArguments(
-                    new QueryArgument<NonNullGraphType<StringGraphType>> { Name = "name" }//,
-                    //new QueryArgument<NonNullGraphType<RobotInputType>> { Name = "robot" }
+                    new QueryArgument<NonNullGraphType<StringGraphType>> { Name = "name" },
+                    new QueryArgument<NonNullGraphType<BooleanGraphType>> { Name = "favourite" }
                 ),
                 resolve: context =>
                 {
                     var name = context.GetArgument<string>("name");
-                    //var robot = context.GetArgument<Robot>("robot");
+                    var favourite = context.GetArgument<bool>("favourite");
                     
-                    contextServiceLocator.RobotRepository.UpdateRobot(name);
-                    return $"The robot with the previous name: {name} has been successfully updated.";
+                    var oldbot = contextServiceLocator.RobotRepository.UpdateRobot(name, favourite);
+                     
+                    return $"The robot with the name: {oldbot.Name} has been successfully updated.";
                 });
             Field<StringGraphType>(
                 "deleteRobot",
