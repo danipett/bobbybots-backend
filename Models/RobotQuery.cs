@@ -17,9 +17,9 @@ namespace RobotApp.Models
 
             Field<ListGraphType<RobotType>>(
                 "robots",
-                arguments: new QueryArguments(new QueryArgument<NonNullGraphType<StringGraphType>> { Name = "order" },
+                arguments: new QueryArguments(new QueryArgument<NonNullGraphType<StringGraphType>> { Name = "name_or_score" },
                 new QueryArgument<NonNullGraphType<StringGraphType>> { Name = "includedCategories" }),
-                resolve: context => contextServiceLocator.RobotRepository.All(context.GetArgument<string>("order"),
+                resolve: context => contextServiceLocator.RobotRepository.All(context.GetArgument<string>("name_or_score"),
                 context.GetArgument<string>("includedCategories")));
         }
     }
